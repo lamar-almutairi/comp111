@@ -6,27 +6,27 @@ public class MoodTracker {
     public static void giveAdvice(String mood) {
 
         if (mood.equalsIgnoreCase("happy")) {
-            System.out.println("Keep smiling and enjoy your day! 😊");
+            System.out.println("Keep smiling and enjoy your day! ");
         }
 
         else if (mood.equalsIgnoreCase("sad")) {
-            System.out.println("Try listening to music or talking to a friend 🎧");
+            System.out.println("Try listening to music or talking to a friend ");
         }
 
         else if (mood.equalsIgnoreCase("stressed")) {
-            System.out.println("Take a short break and relax 🌿");
+            System.out.println("Take a short break and relax ");
         }
 
         else if (mood.equalsIgnoreCase("angry")) {
-            System.out.println("Take deep breaths and stay calm 😌");
+            System.out.println("Take deep breaths and stay calm ");
         }
 
         else if (mood.equalsIgnoreCase("tired")) {
-            System.out.println("Get some rest and drink water 💧");
+            System.out.println("Get some rest and drink water ");
         }
 
         else {
-            System.out.println("Have a nice day 💜");
+            System.out.println("Have a nice day ");
         }
     }
 
@@ -70,7 +70,7 @@ public class MoodTracker {
                         moods[count] = mood;
                         count++;
 
-                        System.out.println("Mood saved successfully! ✅");
+                        System.out.println("Mood saved successfully! ");
                     }
 
                     else {
@@ -111,7 +111,7 @@ public class MoodTracker {
                 // Exit
                 case 4:
 
-                    System.out.println("Thank you for using Mood Tracker 💜");
+                    System.out.println("Thank you for using Mood Tracker ");
                     break;
 
                 // Invalid Choice
